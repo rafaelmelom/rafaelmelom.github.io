@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistic Regression</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">
+        <h1 class="title">Diabetes Prediction<br><span>with Logistic Regression</span></h1>
+    </div>
+    <div id="all">
+        <div id = 'input'>
+            <p class="subtitle"><span class="first-span">Variables</span><span class="second-span">Values</span></p>
+            <label for="preg">Pregnancies: </label>
+            <input type="number" id="preg" name="preg"><br><br>
+            <label for="gluc">Glucose: </label>
+            <input type="number" id="gluc" name="gluc"><br><br>
+            <label for="blood">BloodPressure: </label>
+            <input type="number" id="blood" name="blood"><br><br>
+            <label for="skin">SkinThickness: </label>
+            <input type="number" id="skin" name="skin"><br><br>
+            <label for="ins">Insulin: </label>
+            <input type="number" id="ins" name="ins"><br><br>
+            <label for="bmi">BMI: </label>
+            <input type="number" id="bmi" name="bmi"><br><br>
+            <label for="dpf">DiabetesPedigreeFunction: </label>
+            <input type="number" id="dpf" name="dpf"><br><br>
+            <label for="age">Age: </label>
+            <input type="number" id="age" name="age"><br><br>
+    </div>
+    <div id = 'action'>
+        <input type="button" value="predict" onclick="predict()">
+    </div>
+    <div id="final">
+        <label for="result">Result: </label>
+        <input type="text" id="result" name="result" readonly>
+    </div>
+    </div>
+</body>
+</html>
