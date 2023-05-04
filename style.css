@@ -135,46 +135,48 @@ body {
     #all {
         width: 50vw;
         height: auto;       
-        padding-bottom: 10%;
+        padding-bottom: 12%;
         text-align: center;
-        position: relative;
     }
+
+    #input {
+        text-align: left;
+    }   
 
     #input label {
         display: block; 
-        transform: translate(15%,0%);
     }
 
-    #input input {
+    #input input {  
         float: left;
-        transform: translate(50%,0%);
+        transform: translate(35%,0%);
         margin-top: 1%;
-        width: 40%;
+        width: 70%;
     }
 
     #final label {
         display: block;
-        transform: translate(15%,0%);
     }
 
     #final input {
         float: left;
-        transform: translate(60%,0%);
+        transform: translate(35%,0%);
         margin-top: 1%;
-        width: 40%;
+        width: 70%;
     }
 
     #action {
-        align-items: center;
+        text-align: center;
         margin: 2%;
     }
 
     #action input {
-        transform: translate(0%,5%);
+        transform: translate(25%,5%);
         height: 90%;
     }
 
     .subtitle {
+        margin: 1% auto;
         text-align: center;
     }
 
