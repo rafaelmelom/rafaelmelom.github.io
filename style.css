@@ -99,6 +99,7 @@ body {
 
 #final input {
     text-align: center;
+    font-weight: bold;
     float: right;
     transform: translate(-40%,0%);
     width: 70px;
