@@ -1,0 +1,189 @@
+body {
+    background-color: white;
+}
+
+
+.title {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+.title span {
+  display: block;
+  font-size: 0.7em;
+  font-weight: normal;
+}
+
+.first-span {
+    margin: 5px;
+    font-size: large;
+    background-image: linear-gradient(to right, red, purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.second-span {
+    font-size: large;
+    display: inline;
+    float: right;
+    transform: translate(-100%,0%);
+    background-image: linear-gradient(to right, red, purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#action {
+    text-align: center;
+    height: 45px;
+}
+
+#action input {
+    color: black;
+    height: 90%;
+    width: 90px;
+    font-size: 17px;
+    float: none;
+    transform: translate(-17%,5%);
+    border: double 3px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to right, red, purple);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    font-weight: bold;
+  }
+
+  
+#action input:hover {
+    border: double 3px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, red, purple),
+                      linear-gradient(white, white),
+                      linear-gradient(to right, red, purple);
+    -webkit-background-clip: text, padding-box, border-box;
+    background-clip: text, padding-box, border-box;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+
+#input {
+    text-align: left;
+    font-weight: bold;
+}
+
+#input input {
+    text-align: center;
+    float: right;
+    transform: translate(-40%,0%);
+    width: 70px;
+    height: 20px;
+    color: black;
+    font-weight: bold;
+    border: double 3px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to right, red, purple);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+#final {
+    text-align: left;
+    font-weight: bold;
+}
+
+#final input {
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    transform: translate(-40%,0%);
+    width: 70px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: black;
+    border-radius: 5px;
+    border: 2px solid;
+    color: black;
+    border: double 3px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to right, red, purple);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+#all {
+    text-align: center;
+    width: 25vw;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    padding: 15px;
+    border: double 3px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to right, red, purple);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    #all {
+        width: 70vw;
+        height: auto;       
+        padding-bottom: 12%;
+        text-align: center;
+    }
+
+    #input {
+        text-align: left;
+    }   
+
+    #input label {
+        display: block; 
+    }
+
+    #input input {  
+        float: left;
+        transform: translate(35%,0%);
+        margin-top: 1%;
+        width: 70%;
+    }
+
+    #final label {
+        display: block;
+    }
+
+    #final input {
+        float: left;
+        transform: translate(35%,0%);
+        margin-top: 1%;
+        width: 70%;
+    }
+
+    #action {
+        text-align: center;
+        margin: 2%;
+    }
+
+    #action input {
+        transform: translate(25%,5%);
+        height: 90%;
+    }
+
+    .subtitle {
+        margin: 1% auto;
+        text-align: center;
+    }
+
+    .second-span {
+        display: none;
+    }
+}
+
+

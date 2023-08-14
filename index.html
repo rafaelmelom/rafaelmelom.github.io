@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabete Research</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">
+        <h1 class="title">Prevendo Diabetes<br><span>com Regressão Logística</span></h1>
+    </div>
+    <div id="all">
+        <div id = 'input'>
+            <p class="subtitle"><span class="first-span">Variáveis</span><span class="second-span">Valores</span></p>
+            <label for="preg">Gravidez: </label>
+            <input type="number" id="preg" name="preg"><br><br>
+            <label for="gluc">Glicose: </label>
+            <input type="number" id="gluc" name="gluc"><br><br>
+            <label for="blood">Pressão Sanguínea: </label>
+            <input type="number" id="blood" name="blood"><br><br>
+            <label for="skin">Espessura da Pele: </label>
+            <input type="number" id="skin" name="skin"><br><br>
+            <label for="ins">Insulina: </label>
+            <input type="number" id="ins" name="ins"><br><br>
+            <label for="bmi">IMC: </label>
+            <input type="number" id="bmi" name="bmi"><br><br>
+            <label for="age">Idade: </label>
+            <input type="number" id="age" name="age"><br><br>
+    </div>
+    <div id = 'action'>
+        <input type="button" value="Prever" onclick="predict()">
+    </div>
+    <div id="final">
+        <label for="result">Resultado: </label>
+        <input type="text" id="result" name="result" readonly>
+    </div>
+    </div>
+</body>
+</html>
